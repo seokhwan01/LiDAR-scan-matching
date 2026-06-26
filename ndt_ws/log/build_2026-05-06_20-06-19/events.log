@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (ndt_localization) JobQueued: {'identifier': 'ndt_localization', 'dependencies': OrderedDict()}
+[0.000319] (ndt_localization) JobStarted: {'identifier': 'ndt_localization'}
+[0.004196] (ndt_localization) JobProgress: {'identifier': 'ndt_localization', 'progress': 'cmake'}
+[0.004690] (ndt_localization) JobProgress: {'identifier': 'ndt_localization', 'progress': 'build'}
+[0.005221] (ndt_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seokhwan/ndt_ws/build/ndt_localization', '--', '-j12', '-l12'], 'cwd': '/home/seokhwan/ndt_ws/build/ndt_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seokhwan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seokhwan/LiDAR_ws/install/ouster_ros/lib:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seokhwan'), ('OLDPWD', '/home/seokhwan/ndt_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1043'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2029'), ('COLCON_PREFIX_PATH', '/home/seokhwan/ndt_ws/install:/home/seokhwan/LiDAR_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'seokhwan'), ('JOURNAL_STREAM', '8:14767'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seokhwan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/seokhwan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/seokhwan:@/tmp/.ICE-unix/1278,unix/seokhwan:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '89399f1ab7ce44de93cee7a1dab8fafc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/seokhwan/ndt_ws/install/ndt_localization:/home/seokhwan/LiDAR_ws/install/ouster_ros:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c276fe08-762f-4ced-9ded-4ea8ea0ed42c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seokhwan/ndt_ws/build/ndt_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seokhwan/ndt_ws/install/ndt_localization:/home/seokhwan/LiDAR_ws/install/ouster_ros:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs:/opt/ros/humble')]), 'shell': False}
+[0.035430] (ndt_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ndt_localizer_node\x1b[0m\n'}
+[0.051316] (ndt_localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ndt_localizer_node.dir/src/ndt_localizer_node.cpp.o\x1b[0m\n'}
+[0.099924] (-) TimerEvent: {}
+[0.200184] (-) TimerEvent: {}
+[0.300451] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.500902] (-) TimerEvent: {}
+[0.601112] (-) TimerEvent: {}
+[0.701328] (-) TimerEvent: {}
+[0.801534] (-) TimerEvent: {}
+[0.901745] (-) TimerEvent: {}
+[1.001946] (-) TimerEvent: {}
+[1.102153] (-) TimerEvent: {}
+[1.202325] (-) TimerEvent: {}
+[1.302534] (-) TimerEvent: {}
+[1.402742] (-) TimerEvent: {}
+[1.502958] (-) TimerEvent: {}
+[1.603168] (-) TimerEvent: {}
+[1.703387] (-) TimerEvent: {}
+[1.803597] (-) TimerEvent: {}
+[1.903813] (-) TimerEvent: {}
+[2.004071] (-) TimerEvent: {}
+[2.104320] (-) TimerEvent: {}
+[2.204574] (-) TimerEvent: {}
+[2.304830] (-) TimerEvent: {}
+[2.405065] (-) TimerEvent: {}
+[2.505277] (-) TimerEvent: {}
+[2.605484] (-) TimerEvent: {}
+[2.705691] (-) TimerEvent: {}
+[2.805891] (-) TimerEvent: {}
+[2.906108] (-) TimerEvent: {}
+[3.006328] (-) TimerEvent: {}
+[3.106545] (-) TimerEvent: {}
+[3.206799] (-) TimerEvent: {}
+[3.307050] (-) TimerEvent: {}
+[3.407313] (-) TimerEvent: {}
+[3.507560] (-) TimerEvent: {}
+[3.607776] (-) TimerEvent: {}
+[3.707986] (-) TimerEvent: {}
+[3.808209] (-) TimerEvent: {}
+[3.908439] (-) TimerEvent: {}
+[4.008683] (-) TimerEvent: {}
+[4.108912] (-) TimerEvent: {}
+[4.209119] (-) TimerEvent: {}
+[4.309329] (-) TimerEvent: {}
+[4.409544] (-) TimerEvent: {}
+[4.509770] (-) TimerEvent: {}
+[4.609983] (-) TimerEvent: {}
+[4.710195] (-) TimerEvent: {}
+[4.810416] (-) TimerEvent: {}
+[4.910635] (-) TimerEvent: {}
+[5.010844] (-) TimerEvent: {}
+[5.111063] (-) TimerEvent: {}
+[5.211270] (-) TimerEvent: {}
+[5.311503] (-) TimerEvent: {}
+[5.411740] (-) TimerEvent: {}
+[5.511963] (-) TimerEvent: {}
+[5.612192] (-) TimerEvent: {}
+[5.712400] (-) TimerEvent: {}
+[5.812600] (-) TimerEvent: {}
+[5.912803] (-) TimerEvent: {}
+[6.013019] (-) TimerEvent: {}
+[6.113227] (-) TimerEvent: {}
+[6.213496] (-) TimerEvent: {}
+[6.313788] (-) TimerEvent: {}
+[6.414060] (-) TimerEvent: {}
+[6.514264] (-) TimerEvent: {}
+[6.614484] (-) TimerEvent: {}
+[6.714718] (-) TimerEvent: {}
+[6.814926] (-) TimerEvent: {}
+[6.915137] (-) TimerEvent: {}
+[7.015325] (-) TimerEvent: {}
+[7.115554] (-) TimerEvent: {}
+[7.215785] (-) TimerEvent: {}
+[7.315993] (-) TimerEvent: {}
+[7.416224] (-) TimerEvent: {}
+[7.516446] (-) TimerEvent: {}
+[7.616663] (-) TimerEvent: {}
+[7.716877] (-) TimerEvent: {}
+[7.817086] (-) TimerEvent: {}
+[7.917296] (-) TimerEvent: {}
+[8.017520] (-) TimerEvent: {}
+[8.117771] (-) TimerEvent: {}
+[8.218006] (-) TimerEvent: {}
+[8.318218] (-) TimerEvent: {}
+[8.418436] (-) TimerEvent: {}
+[8.518654] (-) TimerEvent: {}
+[8.618874] (-) TimerEvent: {}
+[8.719120] (-) TimerEvent: {}
+[8.819445] (-) TimerEvent: {}
+[8.919685] (-) TimerEvent: {}
+[9.019889] (-) TimerEvent: {}
+[9.120088] (-) TimerEvent: {}
+[9.220318] (-) TimerEvent: {}
+[9.320536] (-) TimerEvent: {}
+[9.420791] (-) TimerEvent: {}
+[9.521052] (-) TimerEvent: {}
+[9.621299] (-) TimerEvent: {}
+[9.721542] (-) TimerEvent: {}
+[9.821778] (-) TimerEvent: {}
+[9.922008] (-) TimerEvent: {}
+[10.022249] (-) TimerEvent: {}
+[10.122503] (-) TimerEvent: {}
+[10.222761] (-) TimerEvent: {}
+[10.323085] (-) TimerEvent: {}
+[10.423309] (-) TimerEvent: {}
+[10.523553] (-) TimerEvent: {}
+[10.623793] (-) TimerEvent: {}
+[10.723999] (-) TimerEvent: {}
+[10.824196] (-) TimerEvent: {}
+[10.924403] (-) TimerEvent: {}
+[11.024610] (-) TimerEvent: {}
+[11.124852] (-) TimerEvent: {}
+[11.225091] (-) TimerEvent: {}
+[11.325299] (-) TimerEvent: {}
+[11.425511] (-) TimerEvent: {}
+[11.525724] (-) TimerEvent: {}
+[11.625957] (-) TimerEvent: {}
+[11.726155] (-) TimerEvent: {}
+[11.826355] (-) TimerEvent: {}
+[11.926569] (-) TimerEvent: {}
+[12.026800] (-) TimerEvent: {}
+[12.127006] (-) TimerEvent: {}
+[12.227249] (-) TimerEvent: {}
+[12.327452] (-) TimerEvent: {}
+[12.427657] (-) TimerEvent: {}
+[12.527858] (-) TimerEvent: {}
+[12.628077] (-) TimerEvent: {}
+[12.728282] (-) TimerEvent: {}
+[12.828488] (-) TimerEvent: {}
+[12.928733] (-) TimerEvent: {}
+[13.028994] (-) TimerEvent: {}
+[13.129208] (-) TimerEvent: {}
+[13.229440] (-) TimerEvent: {}
+[13.329643] (-) TimerEvent: {}
+[13.429860] (-) TimerEvent: {}
+[13.530092] (-) TimerEvent: {}
+[13.630312] (-) TimerEvent: {}
+[13.730555] (-) TimerEvent: {}
+[13.830763] (-) TimerEvent: {}
+[13.930981] (-) TimerEvent: {}
+[14.031194] (-) TimerEvent: {}
+[14.131414] (-) TimerEvent: {}
+[14.231624] (-) TimerEvent: {}
+[14.331834] (-) TimerEvent: {}
+[14.339464] (ndt_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ndt_localizer_node\x1b[0m\n'}
+[14.431930] (-) TimerEvent: {}
+[14.532182] (-) TimerEvent: {}
+[14.632421] (-) TimerEvent: {}
+[14.732688] (-) TimerEvent: {}
+[14.833059] (-) TimerEvent: {}
+[14.933335] (-) TimerEvent: {}
+[15.033564] (-) TimerEvent: {}
+[15.133777] (-) TimerEvent: {}
+[15.233997] (-) TimerEvent: {}
+[15.334209] (-) TimerEvent: {}
+[15.367648] (ndt_localization) StdoutLine: {'line': b'[100%] Built target ndt_localizer_node\n'}
+[15.374135] (ndt_localization) CommandEnded: {'returncode': 0}
+[15.374652] (ndt_localization) JobProgress: {'identifier': 'ndt_localization', 'progress': 'install'}
+[15.380067] (ndt_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seokhwan/ndt_ws/build/ndt_localization'], 'cwd': '/home/seokhwan/ndt_ws/build/ndt_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seokhwan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seokhwan/LiDAR_ws/install/ouster_ros/lib:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seokhwan'), ('OLDPWD', '/home/seokhwan/ndt_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1043'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2029'), ('COLCON_PREFIX_PATH', '/home/seokhwan/ndt_ws/install:/home/seokhwan/LiDAR_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'seokhwan'), ('JOURNAL_STREAM', '8:14767'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'seokhwan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/seokhwan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/seokhwan:@/tmp/.ICE-unix/1278,unix/seokhwan:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '89399f1ab7ce44de93cee7a1dab8fafc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/seokhwan/ndt_ws/install/ndt_localization:/home/seokhwan/LiDAR_ws/install/ouster_ros:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c276fe08-762f-4ced-9ded-4ea8ea0ed42c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/seokhwan/ndt_ws/build/ndt_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seokhwan/ndt_ws/install/ndt_localization:/home/seokhwan/LiDAR_ws/install/ouster_ros:/home/seokhwan/LiDAR_ws/install/ouster_sensor_msgs:/opt/ros/humble')]), 'shell': False}
+[15.384770] (ndt_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.384884] (ndt_localization) StdoutLine: {'line': b'-- Installing: /home/seokhwan/ndt_ws/install/ndt_localization/lib/ndt_localization/ndt_localizer_node\n'}
+[15.388809] (ndt_localization) StdoutLine: {'line': b'-- Set runtime path of "/home/seokhwan/ndt_ws/install/ndt_localization/lib/ndt_localization/ndt_localizer_node" to ""\n'}
+[15.388909] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/launch\n'}
+[15.388984] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/launch/ndt_localizer.launch.py\n'}
+[15.389052] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ament_index/resource_index/package_run_dependencies/ndt_localization\n'}
+[15.389098] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ament_index/resource_index/parent_prefix_path/ndt_localization\n'}
+[15.389164] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/environment/ament_prefix_path.sh\n'}
+[15.389209] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/environment/ament_prefix_path.dsv\n'}
+[15.389254] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/environment/path.sh\n'}
+[15.389302] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/environment/path.dsv\n'}
+[15.389348] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/local_setup.bash\n'}
+[15.389392] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/local_setup.sh\n'}
+[15.389435] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/local_setup.zsh\n'}
+[15.389478] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/local_setup.dsv\n'}
+[15.389521] (ndt_localization) StdoutLine: {'line': b'-- Installing: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/package.dsv\n'}
+[15.389564] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ament_index/resource_index/packages/ndt_localization\n'}
+[15.389607] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/cmake/ndt_localizationConfig.cmake\n'}
+[15.389650] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/cmake/ndt_localizationConfig-version.cmake\n'}
+[15.389693] (ndt_localization) StdoutLine: {'line': b'-- Up-to-date: /home/seokhwan/ndt_ws/install/ndt_localization/share/ndt_localization/package.xml\n'}
+[15.390102] (ndt_localization) CommandEnded: {'returncode': 0}
+[15.401993] (ndt_localization) JobEnded: {'identifier': 'ndt_localization', 'rc': 0}
+[15.402394] (-) EventReactorShutdown: {}
