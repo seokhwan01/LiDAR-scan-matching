@@ -1,3 +1,25 @@
 LEGO_LOAM/
 NDT_LOAM/
 ndt_ws/
+
+# ROS build artifacts
+proposal_ws/build/
+proposal_ws/install/
+proposal_ws/log/
+**/build/
+**/install/
+**/log/
+
+# External repositories
+proposal_ws/LeGO-LOAM/
+proposal_ws/lv_slam/
+proposal_ws/ndt_loam_localization/
+
+# Generated data / bags / evaluations
+**/rosbag_record/
+**/kitti_output*/
+**/evaluation*/
+**/*.db3
+**/*.mcap
+**/*.bag
+**/*.pcd

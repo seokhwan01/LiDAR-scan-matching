@@ -1,0 +1,28 @@
+/**:
+  ros__parameters:
+    # KITTI odometry uses a Velodyne HDL-64E. KITTI does not store a ring field,
+    # so projection follows the standard spherical approximation used by
+    # SemanticKITTI: 64 rows over approximately [-24.9, 2.0] degrees.
+    n_scan: 64
+    horizon_scan: 1800
+    ang_res_x: 0.2
+    ang_res_y: 0.426984126984127
+    ang_bottom: 24.9
+    ground_scan_ind: 50
+    sensor_minimum_range: 1.0
+    sensor_mount_angle: 0.0
+
+    ground_weight: 0.5
+    nonground_weight: 1.0
+    semantic_class_threshold: 0.75
+    semantic_mismatch_weight: 0.1
+    use_continuous_semantic_compatibility: true
+    use_target_ndt_weight: true
+    use_source_semantic_weight: true
+    use_source_segmentation: true
+    use_source_ground_downsampling: true
+    use_map_ground_downsampling: false
+    ground_keep_ratio: 0.5
+    dimension_scale_linear: 0.75
+    dimension_scale_planar: 1.25
+    dimension_scale_volumetric: 1.0
